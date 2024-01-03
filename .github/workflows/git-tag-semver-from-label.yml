@@ -15,7 +15,7 @@ on:
 
 jobs:
   git-tag-semver-from-label:
-    uses: infrastructure-blocks/git-tag-semver-from-label-workflow/.github/workflows/git-tag-semver-from-label.yml@v1
+    uses: infrastructure-blocks/git-tag-semver-from-label-workflow/.github/workflows/git-tag-semver-from-label.yml@feature/use-status-report-action
     permissions:
       contents: write # Required to push tags
       pull-requests: write # Required to push PR comments
